@@ -6,7 +6,11 @@
 
 - 前端：基础的 HTML、CSS 和 JS 语言。
 
-- 后端：Python 的 Flask 框架。
+- 后端：
+  
+  - Python 的 Flask 框架。
+  
+  - Go 的 Gin 框架。
 
 ## 功能
 

@@ -5,14 +5,14 @@ function sendData() {
         alert("请输入两个数字");
         return;
     }
-    fetch("http://localhost:5000/add", {
+    fetch("http://localhost:5000/api/add", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            num1: parseInt(num1),
-            num2: parseInt(num2)
+            num1: parseFloat(num1),
+            num2: parseFloat(num2)
         })
     })
         .then(response => response.json())

@@ -11,8 +11,8 @@ def add(num1, num2):
     return num1 + num2
 
 
-@app.route("/add", methods=["POST"])
-def UsingAddFuction():
+@app.route("/api/add", methods=["POST"])
+def UsingAddFunction():
     data = request.get_json()
     num1 = data.get("num1")
     print("传入的第一个数字", num1)
