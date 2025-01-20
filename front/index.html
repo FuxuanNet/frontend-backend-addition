@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>加法计算器</title>
-        <link rel="stylesheet" href="add.css">
-    </head>
-    <body>
-        <div class="container">
-            <h1>加法计算器</h1>
-            <input type="number" id="num1" placeholder="请输入第一个数字">
-            <input type="number" id="num2" placeholder="请输入第二个数字">
-            <button onclick="sendData()">计算</button>
-            <div class="result" id="result"></div>
-        </div>
-    </body>
-    <script src="add.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>加法计算器</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>加法计算器</h1>
+        <input type="number" id="num1" placeholder="请输入第一个数字">
+        <input type="number" id="num2" placeholder="请输入第二个数字">
+        <button onclick="sendData()">计算</button>
+        <button onclick="window.location.href='history.html'" class="history-btn">查看历史记录</button>
+
+        <div class="result" id="result"></div>
+    </div>
+</body>
+<script src="add.js"></script>
+
 </html>
